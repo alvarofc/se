@@ -17,28 +17,28 @@ import Title from "../shared/Title.astro";
 class="grid grid-cols-1 gap-8 mx-6 my-12 text-white sm:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2 lg:max-w-screen-xl"
 >
 <article
-  class="rounded-lg p-8 bg-[var(--moderate-violet)] bg-[right_1.5rem_top] bg-no-repeat shadow-md sm:col-span-2"
+  class="rounded-lg p-8 bg-[var(--moderate-violet)] bg-[right_1.5rem_top] bg-no-repeat shadow-md sm:col-span-2 shadow-red-400/40"
 >
   <header class="flex items-center gap-4 mb-4">
     <img
       src={`${Astro.url.href}/image-daniel.jpg`}
       alt="Daniel Clifford"
-      class="rounded-full border-2 border-white/50 h-9 aspect-square"
+      class="rounded-full border-2 border-red/50 h-9 aspect-square"
     />
     <div class="flex flex-col">
-      <p class="text-md text-red-500  font-bold">Regi</p>
+        <h2 class="text-lg md:text-xl font-semibold text-red-500">Regi</h2>
       <p class="text-sm text-red-500"> Indonessia </p>
     </div>
   </header>
 
 
-  <blockquote class="text-md text-black">
+  <Paragraph>
     “ Coming to Silicon Valley feels like coming to the MOON..!!! 23 hrs flight from Indonesia, know nothing about SV, know anybody in SV, do know where to start to explore the business in SV. Arriving in Startup Embassy allow me to make my dream come true. Within 3 weeks, I can get business partner, advisor, potential angel and sign with lawyer to established the business in SV. Its all because I’m staying in Startup Embassy. At the beginning, i meet couple of acquaintance, then become friends, then become brotherhood and now feels become a family which one day if one of us success, we will invite everybody to come stay in SE and do PARTY….!!! Contact me if you want full recommendation about SE, this box is not enough… 🙂 ”
-  </blockquote>
+  </Paragraph>
 </article>
 
 <article
-  class="rounded-lg p-8 bg-[var(--very-dark-grayish-blue)] shadow-md sm:col-span-1"
+  class="rounded-lg p-8 bg-[var(--very-dark-grayish-blue)] shadow-md sm:col-span-1 shadow-red-400/40"
 >
   <header class="flex items-center gap-4 mb-4">
     <img
@@ -47,20 +47,20 @@ class="grid grid-cols-1 gap-8 mx-6 my-12 text-white sm:grid-cols-3 lg:grid-cols-
       class="rounded-full border-2 border-white/50 h-9 aspect-square"
     />
     <div class="flex flex-col">
-      <p class="text-md text-red-500 font-bold">Zeeshan</p>
+        <h2 class="text-lg md:text-xl font-semibold text-red-500">Zeeshan</h2>
       <p class="text-md text-red-500">USA</p>
     </div>
   </header>
 
   
 
-  <blockquote class="text-md text-black">
+  <Paragraph >
     “ I met many daring entrepreneurs. The place had such unique energy and I almost did not want to leave. I also think the concept behind Startup Embassy is such a great one. ”
-  </blockquote>
+  </Paragraph>
 </article>
 
 <article
-  class="rounded-lg p-8 bg-[var(--white)] text-[var(--very-dark-grayish-blue)] shadow-md"
+  class="rounded-lg p-8 bg-[var(--white)] text-[var(--very-dark-grayish-blue)] shadow-md shadow-red-400/40"
 >
   <header class="flex items-center gap-4 mb-4">
     <img
@@ -69,19 +69,19 @@ class="grid grid-cols-1 gap-8 mx-6 my-12 text-white sm:grid-cols-3 lg:grid-cols-
       class="rounded-full border-2 border-white/50 h-9 aspect-square"
     />
     <div class="flex flex-col">
-      <p class="text-md text-red-500 font-bold">Nicolas </p>
-      <p class="text-md text-red-500">France</p>
+        <h2 class="text-lg md:text-xl font-semibold text-red-500">Andreas  </h2>
+      <p class="text-md text-red-500">Switzerland</p>
     </div>
   </header>
 
 
-  <blockquote class="text-md text-black">
-    “ Loved every minute of it! The bbq, with good friends, paella, 4th of July madness, impromptu magician, of course! But also breakfast and sharing a meal with great entrepreneurs, amazing conversations, sharing experiences and enthusiasm with people from over the world. It was so intense! A lot of the success of my stay in the Bay Area has been thanks to this place. I would call it “the serendipity house”!”
-  </blockquote>
+  <Paragraph >
+    “ The house is full of interesting people working on their own startups and the discussions give a lot of inspirations.”
+  </Paragraph>
 </article>
 
 <article
-  class="rounded-lg p-8 bg-[var(--very-dark-blackish-blue)] shadow-md sm:col-span-3 lg:col-span-2"
+  class="rounded-lg p-8 bg-[var(--very-dark-blackish-blue)] shadow-md sm:col-span-3 lg:col-span-2 shadow-red-400/40"
 >
   <header class="flex items-center gap-4 mb-4">
     <img
@@ -90,28 +90,20 @@ class="grid grid-cols-1 gap-8 mx-6 my-12 text-white sm:grid-cols-3 lg:grid-cols-
       class="rounded-full border-2 border-white/50 h-9 aspect-square"
     />
     <div class="flex flex-col">
-      <p class="text-sm">Patrick Abrams</p>
-      <p class="text-sm text-white/50">Verified Graduate</p>
+        <h2 class="text-lg md:text-xl font-semibold text-red-500">Nicolas</h2>
+      <p class="text-md text-red-500">France</p>
     </div>
   </header>
 
-  <p class="text-xl font-bold mb-4">
-    Awesome teaching support from TAs who did the bootcamp themselves.
-    Getting guidance from them and learning from their experiences was easy.
-  </p>
 
-  <blockquote class="text-sm text-white/30">
-    “ The staff seem genuinely concerned about my progress which I find
-    really refreshing. The program gave me the confidence necessary to be
-    able to go out in the world and present myself as a capable junior
-    developer. The standard is above the rest. You will get the personal
-    attention you need from an incredible community of smart and amazing
-    people. ”
-  </blockquote>
+
+  <Paragraph>
+    “ Loved every minute of it! The bbq, with good friends, paella, 4th of July madness, impromptu magician, of course! But also breakfast and sharing a meal with great entrepreneurs, amazing conversations, sharing experiences and enthusiasm with people from over the world. It was so intense! A lot of the success of my stay in the Bay Area has been thanks to this place. I would call it “the serendipity house”!”
+  </Paragraph>
 </article>
 
 <article
-  class="rounded-lg p-8 bg-[var(--white)] text-[var(--very-dark-grayish-blue)] shadow-md sm:row-start-1 sm:row-end-3 sm:col-start-3 lg:col-start-4"
+  class="rounded-lg p-8 bg-[var(--white)] text-[var(--very-dark-grayish-blue)] shadow-md sm:row-start-1 sm:row-end-3 sm:col-start-3 lg:col-start-4 shadow-red-400/40"
 >
   <header class="flex items-center gap-4 mb-4">
     <img
@@ -120,27 +112,15 @@ class="grid grid-cols-1 gap-8 mx-6 my-12 text-white sm:grid-cols-3 lg:grid-cols-
       class="rounded-full border-2 border-white/50 h-9 aspect-square"
     />
     <div class="flex flex-col">
-      <p class="text-sm">Kira Whittle</p>
-      <p class="text-sm text-black/50">Verified Graduate</p>
+        <h2 class="text-lg md:text-xl font-semibold text-red-500">Asier</h2>
+      <p class="text-md text-red-500">Spain</p>
     </div>
   </header>
 
-  <p class="text-xl font-bold mb-4">
-    Such a life-changing experience. Highly recommended!
-  </p>
 
-  <blockquote class="text-sm text-[var(--very-dark-blackish-blue-50)]">
-    “ Before joining the bootcamp, I've never written a line of code. I
-    needed some structure from professionals who can help me learn
-    programming step by step. I was encouraged to enroll by a former student
-    of theirs who can only say wonderful things about the program. The
-    entire curriculum and staff did not disappoint. They were very hands-on
-    and I never had to wait long for assistance. The agile team project, in
-    particular, was outstanding. It took my learning to the next level in a
-    way that no tutorial could ever have. In fact, I've often referred to it
-    during interviews as an example of my developent experience. It
-    certainly helped me land a job as a full-stack developer after receiving
-    multiple offers. 100% recommend! ”
-  </blockquote>
+
+  <Paragraph>
+    “ Startup Embassy is THE place to stay in Silicon Valley. If you are a tech entrepreneur and you like meeting people from all around the world you would love staying here and you won´t regret it. I stayed here for 2 weeks and had a great time. The networking opportunities are huge. The place is really clean and very well located. I'm already missing the place and really look forward to come back soon. ”
+  </Paragraph>
 </article>
 </main>
