@@ -1,0 +1,146 @@
+---
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+---
+<section id="services">
+    <Container className="space-y-10 md:sapce-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <Title>
+                What our ambassadors say.
+            </Title>
+            <Paragraph>
+                DONT TAKE OUR WORD.
+            </Paragraph>
+        </div>
+<main
+class="grid grid-cols-1 gap-8 mx-6 my-12 text-white sm:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2 lg:max-w-screen-xl"
+>
+<article
+  class="rounded-lg p-8 bg-[var(--moderate-violet)] bg-[right_1.5rem_top] bg-no-repeat shadow-md sm:col-span-2"
+>
+  <header class="flex items-center gap-4 mb-4">
+    <img
+      src={`${Astro.url.href}/image-daniel.jpg`}
+      alt="Daniel Clifford"
+      class="rounded-full border-2 border-white/50 h-9 aspect-square"
+    />
+    <div class="flex flex-col">
+      <p class="text-md text-red-500  font-bold">Regi</p>
+      <p class="text-sm text-red-500"> Indonessia </p>
+    </div>
+  </header>
+
+
+  <blockquote class="text-md text-black">
+    “ Coming to Silicon Valley feels like coming to the MOON..!!! 23 hrs flight from Indonesia, know nothing about SV, know anybody in SV, do know where to start to explore the business in SV. Arriving in Startup Embassy allow me to make my dream come true. Within 3 weeks, I can get business partner, advisor, potential angel and sign with lawyer to established the business in SV. Its all because I’m staying in Startup Embassy. At the beginning, i meet couple of acquaintance, then become friends, then become brotherhood and now feels become a family which one day if one of us success, we will invite everybody to come stay in SE and do PARTY….!!! Contact me if you want full recommendation about SE, this box is not enough… 🙂 ”
+  </blockquote>
+</article>
+
+<article
+  class="rounded-lg p-8 bg-[var(--very-dark-grayish-blue)] shadow-md sm:col-span-1"
+>
+  <header class="flex items-center gap-4 mb-4">
+    <img
+      src={`${Astro.url.href}/image-jonathan.jpg`}
+      alt="Jonathan Walters"
+      class="rounded-full border-2 border-white/50 h-9 aspect-square"
+    />
+    <div class="flex flex-col">
+      <p class="text-md text-red-500 font-bold">Zeeshan</p>
+      <p class="text-md text-red-500">USA</p>
+    </div>
+  </header>
+
+  
+
+  <blockquote class="text-md text-black">
+    “ I met many daring entrepreneurs. The place had such unique energy and I almost did not want to leave. I also think the concept behind Startup Embassy is such a great one. ”
+  </blockquote>
+</article>
+
+<article
+  class="rounded-lg p-8 bg-[var(--white)] text-[var(--very-dark-grayish-blue)] shadow-md"
+>
+  <header class="flex items-center gap-4 mb-4">
+    <img
+      src={`${Astro.url.href}/image-jeanette.jpg`}
+      alt="Jeanette Harmon"
+      class="rounded-full border-2 border-white/50 h-9 aspect-square"
+    />
+    <div class="flex flex-col">
+      <p class="text-md text-red-500 font-bold">Nicolas </p>
+      <p class="text-md text-red-500">France</p>
+    </div>
+  </header>
+
+
+  <blockquote class="text-md text-black">
+    “ Loved every minute of it! The bbq, with good friends, paella, 4th of July madness, impromptu magician, of course! But also breakfast and sharing a meal with great entrepreneurs, amazing conversations, sharing experiences and enthusiasm with people from over the world. It was so intense! A lot of the success of my stay in the Bay Area has been thanks to this place. I would call it “the serendipity house”!”
+  </blockquote>
+</article>
+
+<article
+  class="rounded-lg p-8 bg-[var(--very-dark-blackish-blue)] shadow-md sm:col-span-3 lg:col-span-2"
+>
+  <header class="flex items-center gap-4 mb-4">
+    <img
+      src={`${Astro.url.href}/image-patrick.jpg`}
+      alt="Patrick Abrams"
+      class="rounded-full border-2 border-white/50 h-9 aspect-square"
+    />
+    <div class="flex flex-col">
+      <p class="text-sm">Patrick Abrams</p>
+      <p class="text-sm text-white/50">Verified Graduate</p>
+    </div>
+  </header>
+
+  <p class="text-xl font-bold mb-4">
+    Awesome teaching support from TAs who did the bootcamp themselves.
+    Getting guidance from them and learning from their experiences was easy.
+  </p>
+
+  <blockquote class="text-sm text-white/30">
+    “ The staff seem genuinely concerned about my progress which I find
+    really refreshing. The program gave me the confidence necessary to be
+    able to go out in the world and present myself as a capable junior
+    developer. The standard is above the rest. You will get the personal
+    attention you need from an incredible community of smart and amazing
+    people. ”
+  </blockquote>
+</article>
+
+<article
+  class="rounded-lg p-8 bg-[var(--white)] text-[var(--very-dark-grayish-blue)] shadow-md sm:row-start-1 sm:row-end-3 sm:col-start-3 lg:col-start-4"
+>
+  <header class="flex items-center gap-4 mb-4">
+    <img
+      src={`${Astro.url.href}/image-kira.jpg`}
+      alt="Kire Whittle"
+      class="rounded-full border-2 border-white/50 h-9 aspect-square"
+    />
+    <div class="flex flex-col">
+      <p class="text-sm">Kira Whittle</p>
+      <p class="text-sm text-black/50">Verified Graduate</p>
+    </div>
+  </header>
+
+  <p class="text-xl font-bold mb-4">
+    Such a life-changing experience. Highly recommended!
+  </p>
+
+  <blockquote class="text-sm text-[var(--very-dark-blackish-blue-50)]">
+    “ Before joining the bootcamp, I've never written a line of code. I
+    needed some structure from professionals who can help me learn
+    programming step by step. I was encouraged to enroll by a former student
+    of theirs who can only say wonderful things about the program. The
+    entire curriculum and staff did not disappoint. They were very hands-on
+    and I never had to wait long for assistance. The agile team project, in
+    particular, was outstanding. It took my learning to the next level in a
+    way that no tutorial could ever have. In fact, I've often referred to it
+    during interviews as an example of my developent experience. It
+    certainly helped me land a job as a full-stack developer after receiving
+    multiple offers. 100% recommend! ”
+  </blockquote>
+</article>
+</main>
